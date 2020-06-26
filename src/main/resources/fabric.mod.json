@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "emerald",
+  "version": "${version}",
+
+  "name": "E404NNF\'s Emerald tools (OP)",
+  "description": "well, you know wtf this is, so no need for me to describe it :/",
+  "authors": [
+    "E404NNF"
+  ],
+  "contact": {
+    "homepage": "https://e404nnf.github.io/",
+    "sources": "https://github.com/E404NNF/E404NNFs-Emerald-Tools-Mod-FABIRC"
+  },
+
+  "license": "MIT",
+  "icon": "assets/emerald/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.e404nnf.op.emeraldtools.main.Main"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+	"minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
